@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: #9bd9ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  font-family:'Times New Roman', Times, serif;
+}
+.App input{
+  width: 30vh;
+  height: 30px;
+  display: block;
+  margin-bottom: 20px;
+  border: none;
+  text-align: center;
+}
+
+.App button {
+  background-color:rgb(255, 250, 208);
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+}
+
+.App hr{
+  border-color: #fff;
+  width: 50vh;
+  border-style: dashed;
+  
+}
+
+.App ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App li {
+  list-style: none;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px 0;
+}
